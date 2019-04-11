@@ -1,6 +1,6 @@
 def my_collect(array)
   i=0
   collection = []
-  while i < array.size
-  block_given?
-  collection << yield
+  while i < array.length 
+  collection.push yield(array[i])
+  
