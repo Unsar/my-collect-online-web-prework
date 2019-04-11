@@ -1,4 +1,4 @@
-def my_collect(language)
-  langu
+def my_collect(array)
+  
   
 
