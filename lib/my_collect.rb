@@ -3,4 +3,4 @@ def my_collect(array)
   result = []
   while i < array.size
   block_given?
-  result
+  result << yield
